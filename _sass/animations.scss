@@ -1,0 +1,23 @@
+// CSS Animations
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-2px);
+    }
+    25% {
+        transform: translateY(-1.75px);
+    }
+    50% {
+        transform: translateY(2px);
+    }
+    75% {
+        transform: translateY(-1.75px);
+    }
+    100% {
+        transform: translateY(-2px);
+    }
+}
+
+.animation-bounce {
+    animation: bounce 1s infinite ease-out;
+}

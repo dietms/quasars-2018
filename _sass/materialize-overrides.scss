@@ -1,0 +1,64 @@
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+}
+nav.transparent-bg, nav.transparent-bg > .nav-wrapper  {
+    background: rgba(0,0,0,0);
+}
+nav ul {
+    background-color: white;
+}
+nav ul a {
+    color: rgba(0,0,0,0.87);
+}
+
+.btn, .btn-flat,
+.card .card-action a {
+    text-transform: lowercase !important;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.tabs {
+    background-color: rgba(255,255,255,0.1);
+}
+.tabs .tab a, .tabs .tab a:hover {
+    // color: var(--secondary-text);
+    color: unset;
+}
+.tabs .tab a.active {
+    // color: var(--secondary-text);
+    color: unset;
+}
+.tabs .indicator {
+    // background-color: var(--secondary-color);
+    background-color: white;
+}
+
+.collapsible, .collapsible-header, .collapsible-body {
+    border: none;
+}
+.collapsible-body {
+    padding: 0.5em 2em 1.5em 2em;
+}
+.collapsible-header {
+    background-color: transparent;
+}
+
+.collection, .collection-item {
+    border: none !important;
+}
+.collection-item {
+    background-color: transparent !important;
+}
+
+.page-footer a {
+    color: white;
+    font-weight: 500;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  {% if page.custom_css %}
+  {% assign custom_css='/assets/css/' | append: page.custom_css %}
+  <link rel="stylesheet" href="{{ custom_css | relative_url }}">
+  {% endif %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main aria-label="Content">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

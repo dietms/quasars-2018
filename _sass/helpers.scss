@@ -1,0 +1,110 @@
+/* .primary {
+    background-color: var(--primary-color);
+}
+.primary-text {
+    color: var(--primary-color);
+}
+.secondary {
+    background-color: var(--secondary-color);
+}
+.secondary-text {
+    background-color: var(--secondary-color);
+} */
+
+section.hero {
+    min-height: 100vh;
+}
+
+img.feature-img {
+    width: 100%;
+    height: auto;
+}
+
+.event-block {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    // margin-right: 0.25em;
+    padding: 0.25em 1em !important;
+    border: 2px solid white;
+    transition-duration: 0.2s;
+
+    .event--title {
+        position: relative;
+        top: -2em;
+        display: block;
+        background-color: #092844;
+    }
+    .event--title::first-line {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    &:hover {
+        // box-shadow: 0px 16px 32px rgba(0,0,0,0.15);
+        transform: translateY(-1em);
+    }
+}
+
+.social-links {
+    margin-bottom: 1.5em;
+}
+.social-links> a {
+    font-size: 1.5em;
+    color: white;
+}
+.social-links> a:not(:last-child) {
+    margin-right: 10px;
+}
+.social-links.social-links--large> a {
+    font-size: 2em;
+}
+
+.typography--underline {
+    text-decoration: underline;
+}
+.typography--italic {
+    font-style: italic;
+}
+.typography--relaxed {
+    letter-spacing: 0.03rem;
+    word-spacing: 0.2rem;
+    text-align: justify;
+}
+// .typography--reset {
+//     color: unset !important;
+//     text-decoration: none !important;
+// }
+
+.typography--display4 {
+    font-size: 7em;
+}
+.typography--display1 {
+    font-size: 3em;
+}
+.typography--headline {
+    font-size: 2.25em !important;
+}
+.typography--title {
+    font-size: 1.5em !important;
+    font-weight: 500 !important;
+}
+.typography--subheading1 {
+    font-size: 2em !important;
+}
+.typography--subheading2 {
+    font-size: 2em !important;
+    font-weight: 500 !important;
+}
+.typography--body1 {
+    font-size: 1em !important;
+    font-weight: 400 !important;
+}
+.typography--body2 {
+    font-size: 1em !important;
+    font-weight: 500 !important;
+}
+.typography--caption {
+    font-size: 0.8em !important;
+    opacity: 0.8;
+    font-weight: 400 !important;
+}

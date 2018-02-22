@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main aria-label="Content">
+        <article class="container">
+            <header class="container">
+                <h2 class="typography--headline">{{ page.title | escape }}</h2>
+                <p class="post-meta typgraphy--caption">
+                    {% if page.author %}
+                    <i class="material-icons left">person</i> <span>{{ page.author }}</span>
+                    {% endif %}
+                    &CenterDot; <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
+                </p>
+                {% if page.feature_img %}
+                <img src="{{ page.feature_img }}" alt="{{ page.title }}" class="responsive-img feature-img materialboxed">
+                {% endif %}
+            </header>
+            <div class="container row typography--body1 typography--relaxed">
+                <div class="col s12">
+                    {{ content }}
+                </div>
+            </div>
+        </article>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

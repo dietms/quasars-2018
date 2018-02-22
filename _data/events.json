@@ -1,0 +1,84 @@
+{
+    "main_stage": [
+        {
+            "name": "Solo Dance",
+            "description": ""
+        },
+        {
+            "name": "Solo Singing",
+            "description": ""
+        },
+        {
+            "name": "Duet Singing",
+            "description": ""
+        },
+        {
+            "name": "Group Dance",
+            "description": ""
+        },
+        {
+            "name": "Drama",
+            "description": ""
+        }
+    ],
+    "inner_events": [
+        {
+            "name": "Antakshari",
+            "description": ""
+        },
+        {
+            "name": "Quiz",
+            "description": ""
+        },
+        {
+            "name": "Youth Icon",
+            "description": ""
+        },
+        {
+            "name": "Short Film",
+            "description": ""
+        },
+        {
+            "name": "Mehendi",
+            "description": ""
+        },
+        {
+            "name": "Rangoli",
+            "description": ""
+        },
+        {
+            "name": "Photography",
+            "description": ""
+        },
+        {
+            "name": "Craft/Sketch Exhibition",
+            "description": ""
+        },
+        {
+            "name": "Business Idea",
+            "description": ""
+        },
+        {
+            "name": "Project Presentation",
+            "description": ""
+        }
+    ],
+    "sports": [
+        {
+            "name": "Cricket",
+            "description": ""
+        },
+        {
+            "name": "Football",
+            "description": ""
+        },
+        {
+            "name": "Kabaddi",
+            "description": ""
+        },
+        {
+            "name": "Chess",
+            "description": ""
+        }
+    ]
+}

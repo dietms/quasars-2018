@@ -1,0 +1,171 @@
+[
+    {
+        "id": "feb-15",
+        "date": "15 Feb",
+        "day": "Thu",
+        "quasars_day": "Colour Day",
+        "events": [
+            {
+                "event_name": "Photography (Round 1)",
+                "time": "05:30 pm",
+                "place": "Vishwakarma Hall"
+            }
+        ]
+    },
+    {
+        "id": "feb-16",
+        "date": "16 Feb",
+        "day": "Fri",
+        "quasars_day": "Professional and Tie Day",
+        "events": [
+            {
+                "event_name": "Youth Icon (Round 1 - Written)",
+                "time": "05:30 pm",
+                "place": "Hall 107, 108"
+            },
+            {
+                "event_name": "Quiz (Round 1 - Online)",
+                "time": "05:30 pm",
+                "place": "Computer Lab (CSE Dept.)"
+            }
+        ]
+    },
+    {
+        "id": "feb-17",
+        "date": "17 Feb",
+        "day": "Sat",
+        "quasars_day": "Rose / Chocolate Day",
+        "events": [
+            {
+                "event_name": "Antakshari (Elimination)",
+                "time": "05:30 pm",
+                "place": "Library"
+            },
+            {
+                "event_name": "Dance Auditions",
+                "time": "05:30 pm",
+                "place": "Peter Drucker Hall"
+            },
+            {
+                "event_name": "Singing Auditions",
+                "time": "05:30 pm",
+                "place": "Vishwakarma Hall"
+            }
+        ]
+    },
+    {
+        "id": "feb-18",
+        "date": "18 Feb",
+        "day": "Sun",
+        "quasars_day": "Children / Tapori Day",
+        "events": [
+            {
+                "event_name": "Photography (Final)",
+                "time": "11:00 am",
+                "place": "Conference Hall"
+            },
+            {
+                "event_name": "Youth Icon (Final)",
+                "time": "01:00 pm",
+                "place": "Edison Hall"
+            },
+            {
+                "event_name": "Business Idea",
+                "time": "03:30 pm",
+                "place": "C. V. Raman Hall"
+            }
+        ]
+    },
+    {
+        "id": "feb-20",
+        "date": "20 Feb",
+        "day": "Tue",
+        "quasars_day": "Traditional / Saree-Kurta Day",
+        "events": [
+            {
+                "event_name": "Craft/Sketch Exhibition",
+                "time": "12:30 pm",
+                "place": "M. P. P. Lab (E&TC Dept.)"
+            },
+            {
+                "event_name": "Short Film",
+                "time": "02:30 pm",
+                "place": "Vishwakarma Hall"
+            },
+            {
+                "event_name": "Antakshari (Final)",
+                "time": "03:30 pm",
+                "place": "Library"
+            }
+        ]
+    },
+    {
+        "id": "feb-21",
+        "date": "21 Feb",
+        "day": "Wed",
+        "quasars_day": "Halloween / Character Day",
+        "events": [
+            {
+                "event_name": "Rangoli",
+                "time": "10:00 am",
+                "place": "Edison Hall"
+            },
+            {
+                "event_name": "Mehendi",
+                "time": "10:00 am",
+                "place": "Hall 223, 224"
+            },
+            {
+                "event_name": "Quiz (Final)",
+                "time": "12:00 pm",
+                "place": "Library"
+            },
+            {
+                "event_name": "Industry 360&deg;",
+                "time": "01:30 pm",
+                "place": "C. V. Raman"
+            },
+            {
+                "event_name": "Project Presentation",
+                "time": "03:30 pm",
+                "place": "Library"
+            }
+        ]
+    },
+    {
+        "id": "feb-22",
+        "date": "22 Feb",
+        "day": "Thu",
+        "events": [
+            {
+                "event_name": "Inauguration & Cultural Events",
+                "time": "05:00 pm",
+                "place": "Main Ground"
+            }
+        ]
+    },
+    {
+        "id": "feb-23",
+        "date": "23 Feb",
+        "day": "Fri",
+        "events": [
+            {
+                "event_name": "State Day",
+                "time": "05:00 pm",
+                "place": "Main Ground"
+            }
+        ]
+    },
+    {
+        "id": "feb-24",
+        "date": "24 Feb",
+        "day": "Sat",
+        "events": [
+            {
+                "event_name": "Cultural Events",
+                "time": "05:00 pm",
+                "place": "Main Ground"
+            }
+        ]
+    }
+]

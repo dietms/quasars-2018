@@ -1,0 +1,33 @@
+// CSS Formatters
+
+* {
+    font-family: 'Dosis', 'Roboto', sans-serif;
+    // text-transform: lowercase;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    // font-size: 16px;
+
+    /* --primary-color: ; */
+    // --secondary-color: #7b1fa2;
+    --secondary-color: #00cace;
+    // --secondary-text: #9c27b0;
+    --secondary-text: #00cace;
+    --secondary-color-text: #fff;
+}
+main {
+    flex: 1 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-text);
+}

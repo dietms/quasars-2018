@@ -1,0 +1,57 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% if page.title %} {{ page.title }} | {% endif %}{{ site.title }}</title>
+
+    <!-- Meta tags -->
+    <meta name="description" content="Annual Social Gathering, DIEMS Aurangabad">
+    <meta name="keywords" content="DIEMS Aurangabad, Gathering, Annual Social Gathering, Cultural Festival">
+    <meta name="author" content="Mayur Deshmukh">
+
+    <link rel="canonical" href="http://quasars.dietms.org">
+
+    <!-- Social media tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Quasars 2018">
+    <!-- <meta property="og:image" content="http://deshmukhmayur.com/assets/Avatar.png"> -->
+    <meta property="og:description" content="Annual Social Gathering, DIEMS Aurangabad">
+    <meta property="og:url" content="http://quasars.dietms.org/">
+    <meta property="og:site_name" content="Quasars 2018">
+
+    <!-- Twitter Summary Card -->
+    <meta name="twitter:card" content="summary">
+    <!-- <meta name="twitter:site" content="@deshmukhmayur24"> -->
+    <meta name="twitter:title" content="Quasars 2018">
+    <meta name="twitter:description" content="Annual Social Gathering, DIEMS Aurangabad">
+    <!-- <meta name="twitter:image" content="http://deshmukhmayur.com/assets/Avatar.png"> -->
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Dosis Font -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
+    <!-- Roboto Font -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet"> -->
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/assets/styles.css" | relative_url }}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ "/assets/app.js" | relative_url }}"></script>
+
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+        {% include google-analytics.html %}
+    {% endif %}
+</head>
